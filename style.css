@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme{
+     
+
     --color-deepBlue: #02042a;
     --color-lightBlue: #2b84ea;
     --color-lightBlue300: #4b94ed;
@@ -14,4 +16,16 @@
     --font-mullish: 'Mulish', sans-serif;
     --color-main:#181c2e;
 
+    --animate-slide:slideup 20s linear infinite;
+
+    @keyframes slideup{
+        0%{
+            top:0;
+        }
+        100%{
+            top:-163%;
+        }
+    }
+
 }
+
